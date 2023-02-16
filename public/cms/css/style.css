@@ -1,0 +1,18 @@
+.zoom {
+    background-position: 50% 50%;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    cursor: zoom-in;
+  }
+
+  .zoom:hover {
+    transform: scale(7.6);
+  }
+  .options{
+    display: flex;
+    flex-direction: row;
+    column-gap:10px ;
+
+}
